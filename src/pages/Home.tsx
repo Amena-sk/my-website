@@ -19,6 +19,20 @@ export default function Home() {
         of technology and design, and this site is where I share my work,
         ideas, and the occasional experiment.
       </p>
+
+      <h1 className="mt-8 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+        Hi, I'm Amena
+      </h1>
+
+      {/* Paragraph */}
+      <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-600">
+        Welcome to my corner of the web. I build products at the intersection
+        of technology and design, and this site is where I share my work,
+        ideas, and the occasional experiment.
+      </p>
+
+
+      
     </article>
   );
 }

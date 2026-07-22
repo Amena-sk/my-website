@@ -7,8 +7,8 @@ interface NavItem {
 
 const navItems: NavItem[] = [
   { name: "Home", path: "/" },
-  { name: "About", path: "/about" },
-  { name: "Projects", path: "/projects" },
+  { name: "About Us", path: "/about" },
+  { name: "Services", path: "/services" },
   { name: "Contact", path: "/contact" },
 ];
 
@@ -21,7 +21,7 @@ export default function Navbar() {
           to="/"
           className="text-xl font-semibold tracking-tight text-gray-900 hover:text-gray-600 transition-colors"
         >
-          Amena
+          Atema
         </Link>
 
         {/* Nav links — far right */}
